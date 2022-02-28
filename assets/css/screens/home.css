@@ -1,0 +1,99 @@
+#home {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--point-color-darkblue);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__stars {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  z-index: 2;
+}
+
+/*
+  Javascript로 동적으로 생성해주기
+  @keyframes blinkStarAnim {
+    0% {
+      opacity: 0.8;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.1;
+      transform: scale(0.4);
+    }
+    100% {
+      opacity: 0.8;
+      transform: scale(1);
+    }
+  }
+  .home__star {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    top: 30px;
+    left: 30px;
+    opacity: 0.8;
+    animation: blinkStarAnim 5s ease-in-out infinite;
+  }
+  .home__star:nth-child(1) {
+    top: 80vh;
+    left: 80vw;
+  }
+  .home__star:nth-child(2) {
+    top: 20vh;
+    left: 20vw;
+    width: 10px;
+    height: 10px;
+    animation-delay: 0.5s;
+  }
+  .home__star:nth-child(3) {
+    top: 40vh;
+    left: 24vw;
+    width: 7px;
+    height: 7px;
+    animation-delay: 1s;
+  }
+  */
+
+.home__contents {
+  text-align: center;
+  z-index: 3;
+  width: 70%;
+}
+
+.home__title {
+  margin-top: 20px;
+  color: var(--color-white);
+}
+
+.home__description {
+  margin-top: 10px;
+  color: var(--color-white);
+  opacity: 0.8;
+}
+
+.home__contact {
+  color: var(--color-white);
+  font-size: var(--font-small);
+  background: none;
+  border: 2px solid var(--color-white);
+  box-shadow: 0px 5px 0px var(--color-white);
+  padding: 7px 23px;
+  margin-top: 45px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.home__contact:hover {
+  transform: translateY(3px);
+  box-shadow: 0px 2px 0px var(--color-white);
+}
