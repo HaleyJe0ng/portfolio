@@ -1,6 +1,6 @@
 @import "global-setup.css";
 
 /* components */
-@import "navbar.css";
+@import "components/navbar.css";
 
 /* screens */
