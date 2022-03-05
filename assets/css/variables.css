@@ -8,6 +8,10 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --color-dark-grey: #4d4d4d;
+  --color-beige: rgb(215, 207, 187);
+  --color-dark-beige: rgb(104, 101, 94);
+  --color-dark-beige2: rgb(67, 65, 60);
+  --color-light-yellow: #dfb960;
 
   /* Font size */
   --font-large: 48px;
